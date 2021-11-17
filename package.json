@@ -1,0 +1,15 @@
+{
+  "name": "wmts-ign",
+  "dependencies": {
+    "ol": "6.9.0",
+    "olcs": "2.13.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --dist-dir docs --public-url . index.html"
+  }
+}
